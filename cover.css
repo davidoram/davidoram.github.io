@@ -5,3 +5,8 @@
 #main {
   background: 'background.jpg';
 }
+
+#mugshot {
+  height: 140px;
+  width: 140px;
+}

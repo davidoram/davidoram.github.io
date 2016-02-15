@@ -11,99 +11,78 @@
 
     <title>Cover Template for Bootstrap</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-
+    <!-- CDN assets -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+
+    <!-- Local assets -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jquery.min.js"></script></
+    <script src="bootstrap/js/bootstrap.min.js"</script>
 
     <!-- Custom styles for this template -->
     <link href="cover.css" rel="stylesheet">
-
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
   </head>
 
   <body>
+    <div class="container">
+    <nav class="navbar navbar-default navbar-fixed-top"">
 
-    <div class="site-wrapper">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">J.B. Decorators</a>
+        </div>
 
+        <ul class="nav nav-pills">
+          <li role="presentation"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#services">Services</a></li>
+          <li role="presentation"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
+      <div id="main" class="container">
 
-      <div class="site-wrapper-inner">
-
-        <div class="cover-container">
-
-          <div class="masthead clearfix">
-            <div class="inner">
-              <h3 class="masthead-brand">J.B. Decorators</h3>
-              <nav>
-                <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#services">Services</a></li>
-                  <li><a href="#contact">Contact</a></li>
-                </ul>
-              </nav>
+        <div class="row">
+          <div class="center-block">
+            <div class="jumbotron">
+              <h2>J. B Decorators <small>Justin Burrell: Trusted painter &amp; decorator</small></h2>
+              <img id="mugshot" src="mugshot.jpg" alt="Justins mugshot" class="img-circle">
+              <blockquote>
+                <p>I take pride in providing a quality service.  My commitment to quality is not just in one area,
+                  it’s across the painting process, from surface preparation, through paint selection and the final finish</p>
+                <p>Let a local painter with over 20 years experience take you through the painting process from
+                  start to finish</p>
+                <footer><cite title="Source Title">Justin Burrell</cite></footer>
+              </blockquote>
             </div>
           </div>
+        </div>
 
-          <div id="main" class="inner cover">
-            <h1 class="cover-heading">Justin Burrell. Trusted Painter & Decorator</h1>
-            <blockquote>
-              <p>We take pride in providing a quality service.  My commitment to quality is not just in one area, it’s across the painting process, from surface preparation, through paint selection and the final finish</p>
-              <p>Let a local painter with over 20 years experience take you through the painting process from start to finish</p>
-              <footer><cite title="Source Title">Justin Burrel</cite></footer>
-            </blockquote>
-
+        <div class="row">
+          <div class="well">
+          <dl id="services" class="dl-horizontal">
+            <dt>Exteriors</dt>
+            <dd>Painting or Staining, all surfaces</dd>
+            <dt>Interiors</dt>
+            <dd>Painting </dd>
+            <dt>Decorating</dt>
+            <dd>Wallpapering ...</dd>
+            <dt>Other</dt>
+            <dd>Waterblasting...</dd>
+          </dl>
           </div>
+        </div>
 
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-
-          <div id="services" class="inner cover">
-            <h1 class="cover-heading">Services</h1>
-            <p class="lead"></p>
+        <div class="row">
+          <div class="well">
+            <address id="contact">
+              <strong>Justin Burrell.</strong><br>
+              <abbr title="Phone">P:</abbr> (+64) 21 155 7319<br/>
+              <a href="mailto:#">justin.burrell99@gmail.com</a>
+            </address>
           </div>
-
-          <br/>
-          <br/>
-          <br/>
-          <br/>
-
-          <div id="contact" class="inner cover">
-            <h1 class="cover-heading">Contact</h1>
-            <p class="lead">
-              <address>
-                <strong>Justin Burrell.</strong><br>
-                <abbr title="Phone">P:</abbr> (+64) 21 155 7319<br/>
-                <a href="mailto:#">justin.burrell99@gmail.com</a>
-              </address>
-            </p>
-          </div>
-
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>Website design by Dave.</p>
-            </div>
-          </div>
-
         </div>
 
       </div>
-
-    </div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
   </body>
 </html>
